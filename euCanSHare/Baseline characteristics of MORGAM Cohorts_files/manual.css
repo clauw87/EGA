@@ -1,0 +1,30 @@
+ADDRESS {
+
+	font-style: normal;	
+	font-size: 70%;	
+	text-align: right;	
+	font-family: Verdana, Arial, sans-serif;
+}
+
+P.links {
+
+	text-align: center;
+}
+
+.formatSpecificationTable {
+
+	border-collapse: collapse;
+	border-color: darkgrey;
+}
+
+.formatSpecificationSeparator {
+
+	height: 1px;
+	color: darkgrey;
+}
+
+.tableHeaderBackground {
+
+	background-color: whitesmoke;
+}
+

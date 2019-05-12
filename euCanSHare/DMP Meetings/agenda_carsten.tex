@@ -1,0 +1,189 @@
+%
+% This document is for the Group Meeting Agenda.  The Agenda should
+% be distributed to each member (and other invitees) and to the TA
+% prior to the meeting (hopefully the day before) so that each member
+% will have adequate time to prepare for the meeting.  The best way
+% to accomplish the distribution of the agenda is to email the LaTeX
+% file to all members and TA.
+%
+%\documentstyle[fullpage]{article}
+\documentclass{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{geometry}
+ \usepackage{enumitem}
+  \usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+
+\usepackage{colortbl}
+\definecolor{darkpowderblue}{rgb}{0.0, 0.2, 0.6}
+\definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+
+
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+
+%\usepackage{fullpage}
+\usepackage{fontspec}
+\usepackage{xcolor}
+%\usepackage{tabularx}
+\setmainfont{Arial}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+
+\pagestyle{fancy}
+
+%\fancypagestyle{myheader}{%
+ % \fancyhf{}% Clear all headers/footers
+  %\fancyhead[C]{My header}% Header Centred
+  %\fancyfoot[C]{-\thepage-}% Footer Centred
+  %\renewcommand{\headrulewidth}{2pt}% 2pt header rule
+ % \renewcommand{\headrule}{\textcolor{bostonuniversityred}{\rule{10cm}{0.5pt}}\textcolor{darkpowderblue}{\rule{6cm}{0.5pt}}
+    \renewcommand{\headrule}{\textcolor{bostonuniversityred}{\rule{10cm}{1pt}}\textcolor{darkpowderblue}{\rule{6cm}{1pt}}
+    %\color{blue}\leaders\hrule height \headrulewidth\hfill}
+    }
+ % \renewcommand{\footrulewidth}{0pt}% No footer rule
+%}
+%\pagestyle{myheader}
+
+%\noindent\textcolor{red}{\rule{10cm}{0.4pt}}\textcolor{blue}{\rule{6cm}{0.4pt}}
+\rhead{euCanSHare's Data Management Plan v1 Meeting}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\rfoot{claudia.vasallo@crg.eu}
+%\renewcommand{\footrulewidth}{0.4pt}
+\begin{document}
+%\noindent\textcolor{red}{\rule{10cm}{0.4pt}}\textcolor{blue}{\rule{6cm}{0.4pt}}
+\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+
+
+%\noindent\makebox[\linewidth]{\rule{0.76\paperwidth}{0.4pt}}
+%\textcolor{red}{\rule{16cm}{0.4pt}}
+
+
+\title{Meeting Agenda}
+\date{}
+
+%\maketitle
+%\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{1pt}}
+%
+% This section gives the general information about the meeting such
+% as the title, who it was called by, when and where the meeting
+% will take place, what type of meeting it is (planning, design,
+% problem-solving, decision-making, etc.), and of course who is
+% invited to attend.
+%
+%\thispagestyle{empty}
+
+
+%\setlength\extrarowheight{5pt}
+\begin{table}[h]
+ %\centering
+  \begin{tabular}{ll}
+   %\hline
+   % \rowcolor{lightgray}
+\textbf{Aim of the Meeting:} & Gathering info for euCanSHare's Data Management Plan v1 \\  [5pt]  
+\textbf{Meeting Called By:}  &EGA-CRG (WP3)\\[ 5pt]
+  \textbf{Date, Time, and Place:}  & April  26 2019 3:00PM GMT+ 2, VTC. \\ [5pt]
+ % \textbf{Type of Meeting:}  &Organizational \\ [5pt]
+  \textbf{Attendees:}  & Carsten Oliver Schmidt (University of Greifswald), \\
+ &  Claudia Vasallo (EGA-CRG), Audald Lloret-Villas (EGA-CRG) \\ [50pt]    
+\textbf{Agenda:}  &   \\ 
+%\multirow{ 4}{*}{\textbf{} } & Discuss role preferences, team member strengths and weaknesses.  \\
+%& Assign roles  \\ &  Recorder collect questions from group members and refine as necessary.\\ 
+\end{tabular}
+\end{table}
+%\noindent\makebox[\linewidth]{\rule{0.8\paperwidth}{1pt}}
+%
+% This section lists the desired outcomes of the meeting.
+%
+
+%
+% This section describes the order of events of the meeting,
+% in other words the agenda of the meeting.
+%
+%\noindent
+%\textbf{Topics:}
+ 
+%\begin{enumerate}[leftmargin=3cm]
+\begin{enumerate}
+  \item Data summary
+      \begin{enumerate}
+       \item Data purpose, origin, collection procedures
+       \item Data data types, data formats
+   \end{enumerate}
+   \item Data discoverability
+  \begin{enumerate}
+  \item Naming conventions, metadata standards
+  \item Approach towards keywords, raw data overview (aggregate statistics)
+   \end{enumerate}
+  \item Data accessibility
+  \begin{enumerate}
+  \item Levels of access
+  \item Access procedures and conditions
+  \end{enumerate}
+   \item Data interoperability
+  \begin{enumerate}
+  \item Data and metadata vocabularies, standards or methodologies 
+  \item Required metadata 
+   \end{enumerate}
+    \item Data reusability
+      \begin{enumerate}
+   \item Data utility, intended degree of reuse
+  \item Safe long-term storage
+  \end{enumerate} 
+\end{enumerate}
+
+\newpage
+
+\begin{table}[h]
+ %\centering
+  \begin{tabular}{ll}
+   %\hline
+   % \rowcolor{lightgray} 
+\textbf{Outline:}  &   \\ 
+%\multirow{ 4}{*}{\textbf{} } & Discuss role preferences, team member strengths and weaknesses.  \\
+%& Assign roles  \\ &  Recorder collect questions from group members and refine as necessary.\\ 
+\end{tabular}
+\end{table}
+
+Following Horizon 2020's guidelines on Data Management Plan (DMP) we aim to collect a description of data handled within euCanSHare, along with a comprehensive analysis of the nature of data on a dataset by dataset basis, including the needs for long-term storage and security issues, required metadata and other requirements for interoperability, as well as compliance with FAIR and EOSC data principles. The DMP can be considered as a reference for the resource and effort allocations related to data management. However, the DMP is intended to be a living document and can be modified and updated throughout the project.\\
+
+
+% Data description
+\textit{Data description.}
+DMP should include info on data origin, such as data obtention (collection, submission process) as well as the nature of data, in terms of data types classifications, size (and volume in MB/GB/TB) and formats of datasets, all of which will have implications in terms of storage, technical requirements and access. \\
+
+
+% Data discoverability
+\textit{Data discoverability}. DMP should include the data owner's approach to unique identification of datasets with globally unique and eternally persistent identifiers, versioning numbers, naming conventions, search keywords and metadata standards as well as metadata accessibility and data access levels, including data overview or aggregate statistics, all of which will facilitate discoverability of cohort data, comparison and selection of data of potential interest for users. \\
+
+
+% Data accessibility.
+\textit{Data accessibility.} DMP should address how data will be shared, including access policies, access procedures, embargo periods (if any), outlines of technical mechanisms for dissemination and necessary software and other tools for enabling reuse. Access policies regarding each cohort, dataset or specific data types or variables will be later defined and stored in a centralized platform to provide a simple framework to apply for data access, facilitate the procedure of granting and managing granted credentials by the committees (DACs tools). Also, if a different access methodology (e.g local, machinery licenses, novel blockchain technologies) is implemented by any data owner, a description of this would be required for the DMP.\\
+%Access policies regarding each cohort, dataset or specific data types or variables should be gather in advance to implement the corresponding provisions for data accessibility and discoverability of data. These access policies (in close collaboration with WP1) will be defined and stored in a centralized platform to provide a simple framework to apply for data access, facilitate the procedure of granting and managing granted credentials by the committees (DACs tools). Also, if a different access methodology (e.g local, machinery licenses, novel blockchain technologies) will be implemented by any data owner, a description of this would be required for the DMP.\\
+
+% Data interoperability
+\textit{Data interoperability.}
+DMP should include a description of data and metadata vocabularies, standards or methodologies followed by each data contributor to facilitate interoperability. To this end, an initial collection of this info from each data contributor will be valuable. Ideally, the collection of required metadata specific for each data type from data contributors/ experts will lead to a consensus on minimal required metadata collection for each data type, crucial for harmonization purposes, comparison and ultimately multi-cohort analysis.\\
+
+% Data reusability
+\textit{Data reusability.}
+DMP should address reusability issues such as data utility, the intended/allowed degree of reuse (marked by the establishment of licenses), data quality assurance processes and the provisions for data security including storage in certified repositories for long-term preservation and curation, and backup.\\
+ 
+ % Data security.
+%\textit{Data security.} DMP should describe the provisions for data security, including storage backup, long-term preservation. For those cohort data stored locally in external repositories, storage capacity and provisions for long-term secure storage of data should be expressed by data custodians.\\
+
+
+To go through these issues we would like to follow a questionnaire based on H2020 guidelines: \url{https://github.com/clauw87/euCanSHare/blob/master/questionnaire_data_providers_lite.docx}. 
+%Here is a table that could come in handy for gathering most of this info \url{https://github.com/clauw87/euCanSHare/blob/master/DMP_Table_1.xlsx} . \\
+
+
+
+
+\end{document}
